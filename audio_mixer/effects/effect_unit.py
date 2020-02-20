@@ -6,7 +6,7 @@
 1.初始化实例时选择不同效果
 2.调用方法时，接收音频对象，调用效果器处理音频对象，返回音频对象
 """
-from audio_wimix.effects.effect_object import EffectObject
+from audio_mixer.effects.effect_object import EffectObject
 
 
 class EffectUnit(object):

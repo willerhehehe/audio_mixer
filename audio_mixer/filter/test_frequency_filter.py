@@ -2,7 +2,7 @@ import unittest
 from math import pi, sin
 import matplotlib.pyplot as plt
 import numpy as np
-from audio_wimix.filter.frequency_filter import LowPassFrqFilter, HighPassFrqFilter, BandPassFrqFilter
+from audio_mixer.filter.frequency_filter import LowPassFrqFilter, HighPassFrqFilter, BandPassFrqFilter
 
 
 class TestShiftFrequency(unittest.TestCase):

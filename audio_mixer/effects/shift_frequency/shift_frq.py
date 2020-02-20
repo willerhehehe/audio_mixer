@@ -2,7 +2,7 @@
 from scipy.fftpack import fft, ifft
 import numpy as np
 
-from audio_wimix.effects.effect_object import EffectObject
+from audio_mixer.effects.effect_object import EffectObject
 
 
 class ShiftFrqTool(EffectObject):

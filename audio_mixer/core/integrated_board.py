@@ -4,7 +4,7 @@
 """
 import soundfile as sf
 
-from audio_wimix.core.audio_handler import AudioFile
+from audio_mixer.core.audio_handler import AudioFile
 
 
 class IntegratedBoard(object):

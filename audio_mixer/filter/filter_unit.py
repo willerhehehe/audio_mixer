@@ -6,7 +6,7 @@
 1.初始化实例时选择不同滤波方法
 2.调用方法时，接收音频对象，调用滤波器处理音频对象，返回音频对象
 """
-from audio_wimix.filter.filter_object import FliterObject
+from audio_mixer.filter.filter_object import FliterObject
 
 
 class FilterUnit(object):

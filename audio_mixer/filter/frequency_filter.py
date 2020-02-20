@@ -12,10 +12,10 @@
 from scipy.fftpack import fft, ifft
 import numpy as np
 
-from audio_wimix.common_tools.numfrq_transfer import frq2num
-from audio_wimix.common_tools.fft_data_divide import fft_data_divide
+from audio_mixer.common_tools.numfrq_transfer import frq2num
+from audio_mixer.common_tools.fft_data_divide import fft_data_divide
 
-from audio_wimix.filter.filter_object import FliterObject
+from audio_mixer.filter.filter_object import FliterObject
 
 
 class LowPassFrqFilter(FliterObject):

@@ -3,7 +3,7 @@ from math import pi, sin
 from scipy.fftpack import fft
 import numpy as np
 
-from audio_wimix.effects.shift_frequency.shift_frq import ShiftFrqTool
+from audio_mixer.effects.shift_frequency.shift_frq import ShiftFrqTool
 
 
 class TestShiftFrequency(unittest.TestCase):

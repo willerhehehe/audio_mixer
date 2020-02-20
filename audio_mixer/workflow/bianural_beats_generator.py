@@ -1,12 +1,12 @@
 # -*- coding:utf-8 -*-
 
-from audio_wimix.effects.effect_unit import EffectUnit
-from audio_wimix.effects.shift_frequency.shift_frq import ShiftFrqTool
-from audio_wimix.filter.frequency_filter import LowPassFrqFilter, HighPassFrqFilter
-from audio_wimix.filter.filter_unit import FilterUnit
-from audio_wimix.core.integrated_board import IntegratedBoardF2F, IntegratedBoardF2S, IntegratedBoardS2S, IntegratedBoardS2F
-from audio_wimix.core.audio_handler import WavFile2Stream, Stream2WavFile
-from audio_wimix.mixer.audio_mixer import AudioMixer
+from audio_mixer.effects.effect_unit import EffectUnit
+from audio_mixer.effects.shift_frequency.shift_frq import ShiftFrqTool
+from audio_mixer.filter.frequency_filter import LowPassFrqFilter, HighPassFrqFilter
+from audio_mixer.filter.filter_unit import FilterUnit
+from audio_mixer.core.integrated_board import IntegratedBoardF2F, IntegratedBoardF2S, IntegratedBoardS2S, IntegratedBoardS2F
+from audio_mixer.core.audio_handler import WavFile2Stream, Stream2WavFile
+from audio_mixer.mixer.audio_mixer import AudioMixer
 
 
 def generate_bianural_beats(input_file_path, output_file_path, left_frq, right_frq):

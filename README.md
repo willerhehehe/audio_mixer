@@ -5,7 +5,7 @@
 ## 快速制作双耳节拍音乐
 ### 1. git clone 项目至本地，并切换至项目路径
 
-### 2. 安装audio_wimix包
+### 2. 安装audio_mixer包
 执行`pip install audio_mixer`
 
 ### 3. 执行`bianural_beats_generator`模块

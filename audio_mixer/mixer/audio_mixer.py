@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-from audio_wimix.core.audio_object import AudioObject
+from audio_mixer.core.audio_object import AudioObject
 
 
 class AudioMixer(object):
