@@ -3,15 +3,14 @@
 
 # 使用说明
 ## 快速制作双耳节拍音乐
-### 1. git clone 项目至本地，并切换至项目路径
 
-### 2. 安装audio_mixer包
+### 1. 安装audio_mixer包
 执行`pip install audio_mixer`
 
-### 3. 执行`bianural_beats_generator`模块
+### 2. 执行`bianural_beats_generator`模块
 执行`python -m audio_mixer.workflow.bianural_beats_generator`
 
-### 4. 按照命令行提示符输入指定参数
+### 3. 按照命令行提示符输入指定参数
 
 *PS:若在未安装audio_mixer包的情况下使用：*
 
