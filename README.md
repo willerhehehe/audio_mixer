@@ -1,11 +1,8 @@
-# 开发使用的python版本
-python --version: Python 3.6.6
+# 项目作用
+为wav格式音频增加binaural beats双耳节拍效果
 
-# pip requirement 依赖包
-依赖包文件：
-`audio_mixer/config/requirement.txt`
-
-# 快速制作双耳节拍音乐
+# 使用说明
+## 快速制作双耳节拍音乐
 ### 1. git clone 项目至本地，并切换至项目路径
 
 ### 2. 安装audio_wimix包
@@ -23,6 +20,14 @@ python --version: Python 3.6.6
 *`python -m audio_mixer.workflow.bianural_beats_generator`*
 
 *（注：当前仅支持wav格式文件，请进行格式转换后再使用)*
+
+
+# 开发使用的python版本
+python --version: Python 3.6.6
+
+# pip requirement 依赖包
+依赖包文件：
+`audio_mixer/config/requirement.txt`
 
 ## 项目代码拓扑
 ![代码拓扑](https://github.com/willerhehehe/audio_mixer/blob/master/img/audio_mixer.svg)
