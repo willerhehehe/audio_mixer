@@ -6,7 +6,7 @@
 ### 1. git clone 项目至本地，并切换至项目路径
 
 ### 2. 安装audio_wimix包
-执行`python -m pip install audio_mixer`
+执行`pip install audio_mixer`
 
 ### 3. 执行`bianural_beats_generator`模块
 执行`python -m audio_mixer.workflow.bianural_beats_generator`
